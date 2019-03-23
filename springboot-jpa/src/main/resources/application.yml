@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/array
+    password: root
+    username: root
+#  jpa配置
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: mysql
+
+#   redis缓存
+  redis:
+    database: 1
+    host: 192.168.1.98
+    port: 7000
+    password: admin
+    timeout: 50000
+
